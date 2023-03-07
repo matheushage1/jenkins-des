@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Salve, salve, galera do time Cloud! Um alô dos beginners.'
+            }
+        }
+    }
+}
